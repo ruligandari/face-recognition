@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Face Recognition</title>
+    <script defer src="js/face-api.min.js"></script>
+    <script defer src="js/script1.js"></script>
+  </head>
+  <body>
+    <video id="video" width="320" height="240" autoplay></video>
+    <canvas id="canvas" width="320" height="240"></canvas>
+    <input type="text" id="label" />
+    <button onclick="captureImage()">Capture Image</button>
+    <button onclick="runFaceRecognition()">Run Face Recognition</button>
+  </body>
+</html>
