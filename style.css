@@ -9,5 +9,5 @@ body {
 }
 
 canvas {
-  position: absolute;
+  position: fixed;
 }

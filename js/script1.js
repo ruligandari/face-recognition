@@ -84,7 +84,7 @@ async function runFaceRecognition() {
   }
 }
 
-const labels = ["Anggi", "Ruli"];
+const labels = ["Anggi", "Ruli", "Pebi"];
 
 async function loadLabeledFaceDescriptors() {
   const labeledFaceDescriptors = await Promise.all(
