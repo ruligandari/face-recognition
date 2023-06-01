@@ -31,7 +31,6 @@ function getLabeledFaceDescriptions() {
           .detectSingleFace(img)
           .withFaceLandmarks()
           .withFaceDescriptor();
-        console.log(detections);
         if (!detections) {
           console.log(`no faces detected for ${label}`);
           continue;
@@ -67,14 +66,17 @@ video.addEventListener("play", async () => {
     const results = resizedDetections.map((d) => {
       return faceMatcher.findBestMatch(d.descriptor);
     });
+    const hasil = "";
     results.forEach((result, i) => {
       const box = resizedDetections[i].detection.box;
       const drawBox = new faceapi.draw.DrawBox(box, {
         label: result,
       });
       drawBox.draw(canvas);
+      result = hasil;
     });
-
-    console.log(results);
+    tag = document.getElementById("label");
+    tag.value = `${results}`;
+    console.log("hasilnya: " + results);
   }, 2000);
 });
