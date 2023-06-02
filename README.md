@@ -1,15 +1,15 @@
-# face-recognition-javascript-webcam-faceapi
+# FACE RECOGNITION
 
-Face recognition on webcam with Javascript !
+untuk menjalankan clone repository, dan pastikan tersinstal plugin live server di VSCODE
 
-[![Watch the video](https://img.youtube.com/vi/yBgXx0FLYKc/0.jpg)](https://www.youtube.com/watch?v=yBgXx0FLYKc)
+# Realtime Recognition
 
-## face-api
+buka index.html
 
-### library
+# Photo Recognition
 
-You can download the face-api.min.js library from [face-api official repository](https://github.com/justadudewhohacks/face-api.js/blob/master/dist/face-api.min.js).
+buka index1.html
 
-### models
+# Landmark Detection
 
-You can download the models I use in the video [here](https://github.com/justadudewhohacks/face-api.js/tree/master/weights).
+buka index3.html
